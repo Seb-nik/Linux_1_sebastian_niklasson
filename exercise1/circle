@@ -1,5 +1,10 @@
 #!/usr/bin/env bash
 
+if [[ -z $1 ]]; then
+	echo "No radius"
+	exit 1
+fi
+
 radius=$1
 PI=3.141592
 
