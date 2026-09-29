@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+side=$1
+
+echo "Perimeter: $(($side*4)) and area: $(($side*$side))"

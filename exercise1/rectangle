@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+side1=$1
+side2=$2
+
+echo "Perimeter: $(($side1*2 + $side2*2)) and area: $(($side1*$side2))"
