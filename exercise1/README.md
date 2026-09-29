@@ -9,3 +9,7 @@
 
 ### Enter 2 args for perimeter and area for rectangle
 
+
+## added Circle
+
+### Uses one arg to output perimeter, area and output if it is a unit circle

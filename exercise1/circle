@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+radius=$1
+PI=3.141592
+
+perimeter=$(echo "2 * $PI * $radius" | bc)
+area=$(echo "$PI * $radius * $radius" | bc)
+
+echo "Perimeter is $perimeter and area is $area"
+
+
+if [[ $radius -eq 1 ]]; then
+	echo "This is a unit circle"
+fi
